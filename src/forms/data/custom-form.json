@@ -1,0 +1,113 @@
+[
+    {
+        "type": "text",
+        "name": "firstName",
+        "placeholder": "Juan",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "Este campo es requerido"
+            },
+            {
+                "type": "min",
+                "value": 5,
+                "message": "Minimo de caracteres es 5"
+            },
+            {
+                "type": "max",
+                "value": 16,
+                "message": "Maximo de caracteres es 16"
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "name": "lastName",
+        "placeholder": "Salazar",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "Este campo es requerido"
+            },
+            {
+                "type": "min",
+                "value": 5,
+                "message": "Minimo de caracteres es 5"
+            },
+            {
+                "type": "max",
+                "value": 16,
+                "message": "Maximo de caracteres es 16"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "juan@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "Este campo es requerido"
+            },
+            {
+                "type": "email",
+                "message": "Email no valido"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "Este campo es requerido"
+            },
+            {
+                "type": "min",
+                "value": 5,
+                "message": "Minimo de caracteres es 5"
+            },
+            {
+                "type": "max",
+                "value": 16,
+                "message": "Maximo de caracteres es 16"
+            }
+        ],
+        "options": [
+            { 
+                "id": "1",
+                "label": "Mario"
+            },
+            {
+                "id": "2",
+                "label": "Zelda"
+            },
+            {
+                "id": "3",
+                "label": "Metal Gear"
+            },
+            {
+                "id": "4",
+                "label": "Terraria"
+            },
+            {
+                "id": "5",
+                "label": "Final Fantasy"
+            },
+            {
+                "id": "6",
+                "label": "League of Legend"
+            }            
+        ]
+    }
+]
